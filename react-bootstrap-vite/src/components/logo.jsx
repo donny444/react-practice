@@ -1,9 +1,9 @@
 function Logo() {
     return (
-        <div className="text-center d-inline">
-            <img src="/images/react.png" alt="react logo" />
-            <img src="/images/bootstrap.png" alt="bootstrap logo" />
-            <img src="/images/vitejs.png" alt="vitejs logo" />
+        <div className="d-inline">
+            <img className="" src="./src/images/react.png" alt="react logo" />
+            <img className="" src="./src/images/bootstrap.png" alt="bootstrap logo" />
+            <img className="" src="./src/images/vitejs.png" alt="vitejs logo" />
         </div>
     )
 }
