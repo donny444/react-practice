@@ -1,6 +1,7 @@
 import Header from './components/header.jsx'
 import Section from './components/section.jsx'
 import Footer from './components/footer.jsx'
+import Profile from './components/profile.jsx'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Section />
       <Footer />
+      <Profile />
     </>
   )
 }
