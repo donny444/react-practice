@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 
 function TweetForm() {
-  return (
-    <form>
-      <textarea placeholder="What's happening?"></textarea>
-      <button type="submit">Tweet</button>
-    </form>
-  );
+    return (
+        <form>
+            <textarea placeholder="What's happening?"></textarea>
+        </form>
+    );
 }
 
 export default TweetForm;
