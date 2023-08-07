@@ -1,4 +1,4 @@
-function Header() {
+export function Header() {
     return (
         <div>
             <h1 className="bg-primary text-light text-center">
@@ -8,5 +8,3 @@ function Header() {
         </div>
     )
 }
-
-export default Header

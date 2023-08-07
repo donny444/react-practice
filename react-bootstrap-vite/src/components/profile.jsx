@@ -1,4 +1,4 @@
-import { getImageUrl } from './utils.js';
+import { getImageUrl } from './utils.jsx';
 
 function Avatar({ person, size }) {
   return (
@@ -12,9 +12,9 @@ function Avatar({ person, size }) {
   );
 }
 
-export default function Profile() {
+export function Profile() {
   return (
-    <div>
+    <div className='bg-dark p-2 text-center'>
       <Avatar
         size={100}
         person={{ 

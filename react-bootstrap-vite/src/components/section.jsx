@@ -1,7 +1,7 @@
 import { useState } from "react"
-import Logo from "./logo.jsx"
+import { Logo } from "./logo.jsx"
 
-function Section() {
+export function Section() {
     const [count, setCount] = useState(0)
 
     return (
@@ -19,4 +19,3 @@ function Section() {
         </div>
     )
 }
-export default Section
