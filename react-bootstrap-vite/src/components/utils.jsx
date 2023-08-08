@@ -6,3 +6,11 @@ export function getImageUrl(person, size = 's') {
         '.jpg'
     );
 }
+
+export function getImagePath(person) {
+    return (
+        './src/images/' +
+        person.fileName +
+        '.jpg'
+    );
+}

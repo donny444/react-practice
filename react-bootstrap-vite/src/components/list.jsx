@@ -1,16 +1,17 @@
-import { people } from "../data/people.js";
-import { getImageUrl } from "./utils.jsx";
+import { primeMinisters } from "../data/primeministers.js";
+import { getImagePath } from "./utils.jsx";
 
 export function List() {
-    const listItems = people.map(person =>
+    const listItems = primeMinisters.map(person =>
         <li className="list-group-item list-group-item-warning">
             <img
-                src={getImageUrl(person)}
+                src={getImagePath(person)}
                 alt={person.name}
+                width="200"
             />
             <p>
                 <b>{person.name}:</b>
-                {' ' + person.profession + ' '}
+                {' ' + person.party + ' '}
                 known for {person.accomplishment}
             </p>
         </li>
