@@ -1,17 +1,13 @@
 import './App.css';
-import Button from "./components/button.js"
-import Toolbar from "./components/toolbar.js"
-import Signup from './components/signup.js';
-import Gallery from './components/gallery.js';
-import Page from './components/page.js';
+import Counter from './components/counter';
+import { DecrementBar, IncrementBar } from './components/counter';
 
 function App() {
   return (
     <>
-      <Button />
-      <Toolbar />
-      <Signup />
-      <Page />
+      <IncrementBar />
+      <DecrementBar />
+      <Counter />
     </>
   );
 }
