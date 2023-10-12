@@ -1,13 +1,14 @@
 import './App.css';
-import Counter from './components/counter';
-import { DecrementBar, IncrementBar } from './components/counter';
+import IphoneList from './components/iphone';
+import Gallery from './components/gallery';
+import PrimeMinistersList from './components/primeministers';
 
 function App() {
   return (
     <>
-      <IncrementBar />
-      <DecrementBar />
-      <Counter />
+      <IphoneList />
+      <Gallery />
+      <PrimeMinistersList />
     </>
   );
 }

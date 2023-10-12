@@ -1,9 +1,8 @@
 import { useState } from 'react';
-import { sculptureList } from '../data.js';
+import { sculptureList } from '../data/sculpture_list.js';
 
 
 // Adding a state variable
-/*
 export default function Gallery() {
     const [index, setIndex] = useState(0);
 
@@ -34,9 +33,9 @@ export default function Gallery() {
         </>
     );
 }
-*/
 
 // Giving a component multiple state variables
+/*
 export default function Gallery() {
     const [index, setIndex] = useState(0);
     const [showMore, setShowMore] = useState(false);
@@ -73,3 +72,4 @@ export default function Gallery() {
         </>
     );
 }
+*/

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { getImagePath } from "./utils.js";
-import { iPhones } from "../data.js";
+import { iPhones } from "../data/iphone.js";
 
 export default function IphoneList() {
     const [index, setIndex] = useState(0);

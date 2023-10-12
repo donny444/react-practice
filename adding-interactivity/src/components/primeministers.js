@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { primeMinisters } from "../data.js";
+import { primeMinisters } from "../data/prime_ministers.js";
 import { getImagePath } from "./utils.js";
 
 export default function PrimeMinistersList() {
