@@ -7,15 +7,22 @@ export default function Calculator() {
     const [operator, setOperator] = useState(null);
 
     function handleCalc() {
+        const firstNum = parseFloat(firstOperand);
+        const secondNum = parseFloat(secondOperand);
+
         switch(operator) {
             case "+":
-                setNum(firstOperand + secondOperand); break;
+                setNum(firstNum + secondNum); break;
             case "-":
-                setNum(firstOperand - secondOperand); break;
+                setNum(firstNum - secondNum); break;
             case "*":
-                setNum(firstOperand * secondOperand); break;
+                setNum(firstNum * secondNum); break;
             case "/":
-                setNum(firstOperand / secondOperand); break;
+                if(secondNum === 0) {
+                    setNum(firstNum / secondNum);
+                } else {
+                    setNum("Error: Division by zero");
+                }
             default:
                 break;
         }
